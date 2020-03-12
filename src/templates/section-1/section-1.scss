@@ -1,0 +1,22 @@
+.section-1 {
+  padding: 75px 0 105px;
+  background-image: url(../../assets/img/bg/section-1.jpg);
+  background-size: cover;
+  background-position: center;
+  color: $white;
+}
+
+.section-1__title {
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+.section-1__form {
+  margin-top: 50px;
+}
+
+.section-1__form_grid {
+  display: grid;
+  grid-template-columns: minmax(0, 350px) minmax(0, 350px);
+  grid-gap: 25px;
+}
