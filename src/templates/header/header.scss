@@ -1,5 +1,8 @@
 .header {
+  position: sticky;
+  top: 0;
   padding: 35px 0 25px;
+  box-sizing: border-box;
   background-color: $white;
   z-index: 5;
 }
