@@ -1,0 +1,20 @@
+.section-4 {
+  padding: 85px 0 105px;
+  background-color: $white;
+}
+
+.section-4__list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.section-4__list_item {
+  margin-right: 170px;
+  font-weight: bold;
+  font-size: 33px;
+  color: $main;
+  &:last-child {
+    margin-right: 0;
+  }
+}
