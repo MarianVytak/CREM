@@ -77,6 +77,9 @@
     }
 
     // Section 6
+    .section-6__info {
+        padding: 45px 30px 45px;
+    }
 
 }
 
@@ -121,9 +124,6 @@
     }
     .form_title {
         font-size: 14px;
-    }
-    .h2 {
-        font-size: 20px;
     }
     
     // Header
@@ -229,9 +229,24 @@
     }
 
     // Section 6
+    .section-6 {
+        grid-template-columns: 1fr;
+    }
+    .section-6__map {
+        display: none;
+    }
+    .section-6__info {
+        padding: 30px 10px 45px;
+    }
+    .section-6__info_title {
+        font-size: 25px;
+    }
+    .section-6__info_list_item {
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    .section-6__form {
+        margin-top: 40px;
+    }
 
-}
-
-.section-6 {
-    display: none;
 }
