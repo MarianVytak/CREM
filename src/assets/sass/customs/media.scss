@@ -59,6 +59,22 @@
     }
 
     // Section 5
+    .section-5 {
+        padding: 60px 0;
+    }
+    .section-5__grid {
+        grid-gap: 50px;
+    }
+    .section-5__grid_item_icon {
+        width: 60px;
+        height: 60px;
+    }
+    .section-5__grid_item_title {
+        font-size: 16px;
+    }
+    .section-5__grid_item_desc {
+        font-size: 14px;
+    }
 
     // Section 6
 
@@ -191,12 +207,31 @@
     }
 
     // Section 5
+    .section-5 {
+        padding: 45px 0;
+    }
+    .section-5__grid {
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+    }
+    .section-5__grid_item:last-child {
+        grid-column-end: 2;
+    }
+    .section-5__grid_item_icon {
+        width: 60px;
+        height: 60px;
+    }
+    .section-5__grid_item_title {
+        font-size: 16px;
+    }
+    .section-5__grid_item_desc {
+        font-size: 14px;
+    }
 
     // Section 6
 
 }
 
-.section-5,
 .section-6 {
     display: none;
 }
