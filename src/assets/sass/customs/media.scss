@@ -126,6 +126,26 @@
     }
 
     // Section 3
+    .section-3 {
+        padding: 45px 0;
+    }
+    .section-3__grid {
+        grid-template-columns: 1fr;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        margin-top: 25px;
+    }
+    .section-3__grid_item:last-child {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .section-3__grid_item_title {
+        font-size: 16px;
+    }
+    .section-3__grid_item_desc {
+        margin-top: 5px;
+        font-size: 13px;
+    }
 
     // Section 4
 
@@ -135,7 +155,6 @@
 
 }
 
-.section-3,
 .section-4,
 .section-5,
 .section-6 {
