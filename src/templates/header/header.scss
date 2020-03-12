@@ -1,1 +1,79 @@
-.header {}
+.header {
+  padding: 35px 0 25px;
+  background-color: $white;
+  z-index: 5;
+}
+
+.header__block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header__info_tel {
+  position: relative;
+}
+
+.header__info_tel_label {
+  position: absolute;
+  top: -5px;
+  left: 0;
+  transform: translateY(-100%);
+}
+
+.header__info_tel_link {
+  font-weight: bold;
+  font-size: 23px;
+  color: $black;
+  &:hover {
+    color: $main;
+  }
+}
+
+.header__info_address {
+  margin: 0 100px 0 40px;
+  font-size: 18px;
+}
+
+.header__info_btn {
+  width: 260px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  background-color: #dfdfdf;
+  box-shadow: 0 2px 2px rgba(40, 40, 40, 0.59);
+  font-weight: bold;
+  font-size: 16px;
+  transition: all .3s;
+  &:hover {
+    background-color: darken(#dfdfdf, 5);
+  }
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 25px;
+}
+
+.navigation__link {
+  margin-right: 40px;
+  font-size: 18px;
+  color: $main;
+  text-transform: uppercase;
+  &:last-child {
+    margin-right: 0;
+  }
+  &:hover {
+    color: darken($main, 5);
+  }
+}
